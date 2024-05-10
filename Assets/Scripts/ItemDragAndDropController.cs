@@ -1,6 +1,7 @@
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.EventSystems;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -25,7 +26,27 @@ public class ItemDragAndDropController : MonoBehaviour
     {
         if (itemIcon.activeInHierarchy == true)
         {
-            iconTransform.position = Input.mousePosition;        }
+
+            iconTransform.position = Input.mousePosition;
+
+            if (Input.GetMouseButtonDown(0))
+            {
+                if (EventSystem.current.IsPointerOverGameObject() == false)
+                {
+                    Vector3 worldPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+                    worldPosition.z = 0;
+
+                    ItemSpawnManager.instance.SpawnItem(
+                        worldPosition,
+                        itemSlot.item,
+                        itemSlot.count);
+
+                    itemSlot.Clear();
+                    itemIcon.SetActive(false);
+
+                }
+            }
+        }
 
     }
     internal void OnClick(ItemSlot itemSlot)
