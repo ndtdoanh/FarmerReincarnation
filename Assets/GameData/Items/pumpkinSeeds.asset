@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 403cdde99ffbdde4583af6175c34ab46, type: 3}
+  m_Name: pumpkinSeeds
+  m_EditorClassIdentifier: 
+  name: Seedpumpkin
+  stackable: 1
+  icon: {fileID: -57647439, guid: 6b6db0ceb0e7e4e42992dcf4b2bc3036, type: 3}

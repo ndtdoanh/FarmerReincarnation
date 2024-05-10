@@ -10,11 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 403cdde99ffbdde4583af6175c34ab46, type: 3}
-  m_Name: pumpkinSeeds
+  m_Name: Dig
   m_EditorClassIdentifier: 
-  tile: {fileID: 0}
-  type: 0
-  actionType: 0
-  range: {x: 5, y: 4}
-  stackable: 1
-  image: {fileID: -57647439, guid: 6b6db0ceb0e7e4e42992dcf4b2bc3036, type: 3}
+  name: Shovel
+  stackable: 0
+  icon: {fileID: 21300000, guid: b3a67fc6bd9f6405ba5785b99c7d830a, type: 3}
