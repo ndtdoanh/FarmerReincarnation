@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 403cdde99ffbdde4583af6175c34ab46, type: 3}
-  m_Name: Dig
+  m_Name: Axe
   m_EditorClassIdentifier: 
-  name: Shovel
+  name: Axe
   stackable: 0
-  icon: {fileID: 21300000, guid: b3a67fc6bd9f6405ba5785b99c7d830a, type: 3}
+  icon: {fileID: -1652397039, guid: 5f100a7e5cdc33444991c23b6b563e8d, type: 3}
