@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tilled_Dirt_0
+      name: PlowableDirt
       rect:
         serializedVersion: 2
         x: 0
@@ -1590,7 +1590,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Tilled_Dirt_0: 1297059125
+      PlowableDirt: 1297059125
       Tilled_Dirt_1: 1443245562
       Tilled_Dirt_10: 606279294
       Tilled_Dirt_11: -1819629381
