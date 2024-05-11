@@ -8,13 +8,13 @@ public class ToolCharacterController : MonoBehaviour
 {
     CharacterController2D character;
     Rigidbody2D rgbd2d;
+    Animator animator;
+    ToolBarController toolBarController;
     [SerializeField] float offsetDistance = 1f;
     [SerializeField] float sizeOfInteractableArea = 1.2f;
     [SerializeField] MarkerManager markerManager;
     [SerializeField] TileMapReadController tileMapReadController;
     [SerializeField] float maxDistance = 1.5f;
-    [SerializeField] CropsManager cropsManager;
-    [SerializeField] TileData plowableTiles;
 
     Vector3Int selectedTilePosition;
     bool selectable;
@@ -23,6 +23,8 @@ public class ToolCharacterController : MonoBehaviour
     {
         character = GetComponent<CharacterController2D>();
         rgbd2d = GetComponent<Rigidbody2D>();
+        toolBarController = GetComponent<ToolBarController>();
+        animator = GetComponent<Animator>();
     }
 
     private void Update()
@@ -63,18 +65,28 @@ public class ToolCharacterController : MonoBehaviour
     {
         Vector2 position = rgbd2d.position + character.lastMotionVector * offsetDistance;
 
-        Collider2D[] colliders = Physics2D.OverlapCircleAll(position, sizeOfInteractableArea);
-
-        foreach (Collider2D c in colliders)
+        Item item = toolBarController.GetItem;
+        if (item == null)
         {
-            ToolHit hit = c.GetComponent<ToolHit>();
-            if (hit != null)
+            return false;
+        }
+        if (item.onAction == null) { return false; }
+
+        animator.SetTrigger("act");
+
+        bool complete = item.onAction.OnApply(position);
+
+        if (complete == true)
+        {
+            if (item.onItemUsed != null)
             {
-                hit.Hit();
-                return true;
+                item.onItemUsed.OnItemUsed(item, GameManager.instance.inventoryContainer);
             }
         }
-        return false;
+
+        return complete;
+
+
     }
 
     private void UseToolGrid()
@@ -82,17 +94,19 @@ public class ToolCharacterController : MonoBehaviour
     {
         if (selectable == true)
         {
-            TileBase tileBase = tileMapReadController.GetTileBase(selectedTilePosition);
-            TileData tileData = tileMapReadController.GetTileData(tileBase);
-            if(tileData != plowableTiles) { return; }
+            Item item = toolBarController.GetItem;
+            if (item == null) { return; }
+            if (item.onTileMapAction == null) { return; }
 
-            if (cropsManager.Check(selectedTilePosition))
+            animator.SetTrigger("act");
+            bool complete = item.onTileMapAction.OnApplyToTileMap(selectedTilePosition, tileMapReadController);
+
+            if (complete == true)
             {
-                cropsManager.Seed(selectedTilePosition);
-            }
-            else
-            {
-                cropsManager.Plow(selectedTilePosition);
+                if (item.onItemUsed != null)
+                {
+                    item.onItemUsed.OnItemUsed(item, GameManager.instance.inventoryContainer);
+                }
             }
         }
 

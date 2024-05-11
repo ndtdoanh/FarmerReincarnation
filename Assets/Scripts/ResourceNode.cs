@@ -2,7 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TreeCutable : ToolHit
+[RequireComponent(typeof(BoxCollider2D))]
+public class ResourceNode : ToolHit
 {
 
     [SerializeField] GameObject pickUpDrop;
@@ -11,6 +12,7 @@ public class TreeCutable : ToolHit
     [SerializeField] Item item;
     [SerializeField] int dropCount = 5;
     [SerializeField] int itemCountInOneDrop = 1;
+    [SerializeField] ResourceNodeType nodeType;
 
 
 
@@ -28,5 +30,10 @@ public class TreeCutable : ToolHit
 
         }
         Destroy(gameObject);
+    }
+
+    public override bool CanBeHit(List<ResourceNodeType> canBeHit)
+    {
+        return canBeHit.Contains(nodeType);
     }
 }
