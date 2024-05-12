@@ -13,6 +13,8 @@ public class CropTile
     public Crop crop;
     public SpriteRenderer renderer;
     public float damage;
+    public Vector3Int position;
+
     public bool Complete
     {
         get
@@ -61,6 +63,7 @@ public class CropsManager : TimeAgent
             if (cropTile.damage>1f)
             {
                 cropTile.Harvested();
+                targetTilemap.SetTile(cropTile.position, plowed);
                 continue;
             }
 
@@ -116,6 +119,8 @@ public class CropsManager : TimeAgent
         go.transform.position -= Vector3.forward * 0.01f;
         go.SetActive(false);    
         crop.renderer = go.GetComponent<SpriteRenderer>();
+
+        crop.position = position;
 
         targetTilemap.SetTile(position, plowed);
     }
