@@ -99,7 +99,7 @@ public class ToolCharacterController : MonoBehaviour
             if (item.onTileMapAction == null) { return; }
 
             animator.SetTrigger("act");
-            bool complete = item.onTileMapAction.OnApplyToTileMap(selectedTilePosition, tileMapReadController);
+            bool complete = item.onTileMapAction.OnApplyToTileMap(selectedTilePosition, tileMapReadController, item);
 
             if (complete == true)
             {
