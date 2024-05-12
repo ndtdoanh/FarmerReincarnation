@@ -15,6 +15,7 @@ public class ToolCharacterController : MonoBehaviour
     [SerializeField] MarkerManager markerManager;
     [SerializeField] TileMapReadController tileMapReadController;
     [SerializeField] float maxDistance = 1.5f;
+    [SerializeField] ToolAction onTilePickUp;
 
     Vector3Int selectedTilePosition;
     bool selectable;
@@ -95,7 +96,11 @@ public class ToolCharacterController : MonoBehaviour
         if (selectable == true)
         {
             Item item = toolBarController.GetItem;
-            if (item == null) { return; }
+            if (item == null) {
+                PickUpTile();
+                
+                return; 
+            }
             if (item.onTileMapAction == null) { return; }
 
             animator.SetTrigger("act");
@@ -110,5 +115,12 @@ public class ToolCharacterController : MonoBehaviour
             }
         }
 
+    }
+
+    private void PickUpTile()
+    {
+        if( onTilePickUp == null) { return ; }
+
+        onTilePickUp.OnApplyToTileMap(selectedTilePosition, tileMapReadController, null);
     }
 }

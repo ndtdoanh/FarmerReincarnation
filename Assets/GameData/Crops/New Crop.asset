@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timeToGrow: 15
   yield: {fileID: 11400000, guid: 910d59493a49aac4e87bbb4bed6861d7, type: 2}
-  count: 1
+  count: 2
   sprites:
   - {fileID: -230606955, guid: d10913dcf4e8852429286fd8c00d224e, type: 3}
   - {fileID: 2109562760, guid: d10913dcf4e8852429286fd8c00d224e, type: 3}
