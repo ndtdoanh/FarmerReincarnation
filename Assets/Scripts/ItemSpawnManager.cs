@@ -13,6 +13,7 @@ public class ItemSpawnManager : MonoBehaviour
 
     [SerializeField] GameObject pickUpItemPrefab;
 
+
     public void SpawnItem(Vector3 position, Item item, int count)
     {
         GameObject o = Instantiate(pickUpItemPrefab, position, Quaternion.identity);
