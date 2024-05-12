@@ -1,18 +1,30 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class TimeAgent : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+
+    public Action onTimeTick;
+    private void Start()
     {
-        
+        Init();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Init()
     {
-        
+        GameManager.instance.timeController.Subscribe(this);
+
+    }
+
+    public void Invoke()
+    {
+        onTimeTick?.Invoke();
+    }
+
+    private void OnDestroy()
+    {
+        GameManager.instance.timeController.Unsubscribe(this);
     }
 }
