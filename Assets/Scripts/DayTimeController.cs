@@ -21,6 +21,7 @@ public class DayTimeController : MonoBehaviour
     [SerializeField] float startAtTime = 28800f; //seconds
     [SerializeField] Text text;
     [SerializeField] Light2D globalLight;
+    [SerializeField] Light2D playerSpotlight;
     private int days;
 
     float Hours
@@ -88,6 +89,14 @@ public class DayTimeController : MonoBehaviour
         float v = nightTimeCurve.Evaluate(Hours);
         Color c = Color.Lerp(dayLightColor, nightLightColor, v);
         globalLight.color = c;
+        if (v > 0.5f)
+        {
+            playerSpotlight.intensity = Mathf.Lerp(0f, 1f, (v - 0.5f) * 2f);
+        }
+        else
+        {
+            playerSpotlight.intensity = 0f;
+        }
     }
 
     private void TimeValueCalculation()

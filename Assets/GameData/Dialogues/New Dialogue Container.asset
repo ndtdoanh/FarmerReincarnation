@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdc8b13448c467447a4b8164eb231db0, type: 3}
+  m_Name: New Dialogue Container
+  m_EditorClassIdentifier: 
+  line:
+  - "SAO L\u1EA6Y, CON C\u1EA6N C\xD9 TH\xCC P\xD9 SI\xCANG L\u0102NG"
+  - "C\xD3 L\xC0M TH\xCC M\u1EDAI C\xD3 \u0102N "
+  - ThirdLineas;dlkz;lxkcl;zxk;cz;lxkcz;lxkc;lkzxl;kczxl;ckxz
+  actor: {fileID: 11400000, guid: d35d8cd0493667e43988c85c7a01b663, type: 2}

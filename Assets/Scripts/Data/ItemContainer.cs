@@ -33,9 +33,11 @@ public class ItemSlot
 public class ItemContainer : ScriptableObject
 {
     public List<ItemSlot> slots;
+    public bool isDirty;
 
     public void Add(Item item, int count = 1)
     {
+        isDirty = true; 
         if (item.stackable == true)
         {
             ItemSlot itemSlot = slots.Find(x => x.item == item);
@@ -66,6 +68,8 @@ public class ItemContainer : ScriptableObject
 
     public void Remove(Item itemToRemove, int count = 1)
     {
+        isDirty = true;
+
         if (itemToRemove.stackable)
         {
             ItemSlot itemSlot = slots.Find(x => x.item == itemToRemove);

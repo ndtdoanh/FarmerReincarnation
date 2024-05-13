@@ -95,6 +95,7 @@ MonoBehaviour:
   closedChest: {fileID: 3434276758804937005}
   openedChest: {fileID: 9200629093919615377}
   opened: 0
+  itemContainer: {fileID: 11400000, guid: 210d5a0456f2ae048bd96d159b6d0184, type: 2}
 --- !u!1 &3434276758804937005
 GameObject:
   m_ObjectHideFlags: 0
