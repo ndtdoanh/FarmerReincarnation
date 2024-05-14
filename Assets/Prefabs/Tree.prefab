@@ -178,4 +178,4 @@ MonoBehaviour:
   toSpawn: {fileID: 11400000, guid: 7cf588dadaa7e20469325a6f392cd02b, type: 2}
   count: 1
   spread: 2
-  probability: 0.05
+  probability: 0.01

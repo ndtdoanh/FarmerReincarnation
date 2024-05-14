@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: plants free_27
+  m_Name: plants free_20
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: -1631916245, guid: d10913dcf4e8852429286fd8c00d224e, type: 3}
+  m_Sprite: {fileID: -91501476, guid: d10913dcf4e8852429286fd8c00d224e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
