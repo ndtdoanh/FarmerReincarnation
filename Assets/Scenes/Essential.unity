@@ -3054,7 +3054,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 266599503}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6c87606bf454bbe4cbc323d0db080e5d, type: 3}
   m_Name: 
@@ -3453,7 +3453,7 @@ Rigidbody2D:
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
@@ -4088,7 +4088,7 @@ MonoBehaviour:
     m_PostInfinity: 0
     m_RotationOrder: 4
   dayLightColor: {r: 1, g: 1, b: 1, a: 1}
-  timeScale: 3000
+  timeScale: 6000
   startAtTime: 28000
   text: {fileID: 170581126}
   globalLight: {fileID: 3133353170425036491}
@@ -4106,6 +4106,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   screenTint: {fileID: 1181596768}
+  cameraConfiner: {fileID: 589728628}
 --- !u!1001 &498474053
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4561,6 +4562,7 @@ GameObject:
   - component: {fileID: 589728624}
   - component: {fileID: 589728626}
   - component: {fileID: 589728627}
+  - component: {fileID: 589728628}
   m_Layer: 0
   m_Name: CM
   m_TagString: Untagged
@@ -4652,6 +4654,19 @@ MonoBehaviour:
   m_BoundingShape2D: {fileID: 0}
   m_ConfineScreenEdges: 1
   m_Damping: 0
+--- !u!114 &589728628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 589728623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb1d76a44abcdc94b899f561fbe0659f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  confiner: {fileID: 589728627}
 --- !u!114 &610764924 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5717677008934016939, guid: b4c19336d619cdd488214dbda12e14df, type: 3}
@@ -9739,15 +9754,15 @@ MonoBehaviour:
   m_LookaheadTime: 0
   m_LookaheadSmoothing: 0
   m_LookaheadIgnoreY: 0
-  m_XDamping: 0
-  m_YDamping: 0
+  m_XDamping: 1.5
+  m_YDamping: 1.5
   m_ZDamping: 1
   m_TargetMovementOnly: 1
   m_ScreenX: 0.5
   m_ScreenY: 0.5
   m_CameraDistance: 10
-  m_DeadZoneWidth: 0.319
-  m_DeadZoneHeight: 0.319
+  m_DeadZoneWidth: 0.1
+  m_DeadZoneHeight: 0.1
   m_DeadZoneDepth: 0
   m_UnlimitedSoftZone: 0
   m_SoftZoneWidth: 0.8

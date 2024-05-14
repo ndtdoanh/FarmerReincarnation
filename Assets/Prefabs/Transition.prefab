@@ -115,7 +115,7 @@ Transform:
   m_GameObject: {fileID: 1657622257930994978}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.02, y: 2.78, z: 0}
+  m_LocalPosition: {x: 70.89, y: 4.19, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -167,3 +167,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c82a069cb8f6f1f42909fd025c5996bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  transitionType: 0
+  sceneNameToTransition: 
+  targetPosition: {x: 0, y: 0, z: 0}
+  confiner: {fileID: 0}
+  destination: {fileID: 0}
