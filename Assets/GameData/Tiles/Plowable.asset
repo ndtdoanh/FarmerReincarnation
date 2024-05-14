@@ -12,6 +12,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efa14bf5acefaa749b309314b18a0dde, type: 3}
   m_Name: Plowable
   m_EditorClassIdentifier: 
-  tiles:
-  - {fileID: 11400000, guid: 777d764406d22874eacf40cd2a59134a, type: 2}
-  plowable: 1

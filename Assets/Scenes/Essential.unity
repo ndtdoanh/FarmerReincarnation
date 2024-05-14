@@ -4000,10 +4000,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eab57340b1e78ad43b180b8ebba547fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  plowed: {fileID: 11400000, guid: 9b95004f6098fb94db594228b14cf13f, type: 2}
-  seeded: {fileID: 11400000, guid: d4da36b728cba1844a5edcddc4a07b40, type: 2}
-  targetTilemap: {fileID: 0}
-  cropsSpritePrefab: {fileID: 885464890681101918, guid: 7398437f3313b0249b6dcd6e755eba74, type: 3}
+  cropsManager: {fileID: 0}
 --- !u!114 &489345853
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4016,7 +4013,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0572640a7bca9c4ba3a5f2306f01ea1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nightLightColor: {r: 0.01886791, g: 0.01886791, b: 0.01886791, a: 0}
+  nightLightColor: {r: 0.6320754, g: 0.6320754, b: 0.6320754, a: 0}
   nightTimeCurve:
     serializedVersion: 2
     m_Curve:
@@ -4078,7 +4075,7 @@ MonoBehaviour:
     m_PostInfinity: 0
     m_RotationOrder: 4
   dayLightColor: {r: 1, g: 1, b: 1, a: 1}
-  timeScale: 5000
+  timeScale: 3000
   startAtTime: 28000
   text: {fileID: 170581126}
   globalLight: {fileID: 3133353170425036491}

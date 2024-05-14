@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 165439321}
   - component: {fileID: 165439323}
   - component: {fileID: 165439322}
+  - component: {fileID: 165439324}
   m_Layer: 0
   m_Name: HillTileMap
   m_TagString: Untagged
@@ -759,6 +760,22 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &165439324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 165439320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c72686d6d8783ca49827a17f87ff1b6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plowed: {fileID: 11400000, guid: 17c0b3899ed4ac945876fdb500677a05, type: 2}
+  seeded: {fileID: 11400000, guid: d4da36b728cba1844a5edcddc4a07b40, type: 2}
+  cropsSpritePrefab: {fileID: 885464890681101918, guid: 7398437f3313b0249b6dcd6e755eba74, type: 3}
+  container: {fileID: 11400000, guid: 008111847712f5849a6ea99139081085, type: 2}
 --- !u!1 &167504834
 GameObject:
   m_ObjectHideFlags: 0
