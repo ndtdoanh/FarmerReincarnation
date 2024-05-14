@@ -3568,6 +3568,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemContainerPanel: {fileID: 1985985671}
   maxDistance: 5
+--- !u!114 &298571061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 298571026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3e9cf6270e1cba4abb04235b4c6119b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stationary: 0
 --- !u!224 &302505565 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8269232186790382076, guid: b4c19336d619cdd488214dbda12e14df, type: 3}
@@ -10934,6 +10947,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8047770372902432739, guid: 551a438f37d7488408c014f9bc163d59, type: 3}
       insertIndex: -1
       addedObject: {fileID: 298571060}
+    - targetCorrespondingSourceObject: {fileID: 8047770372902432739, guid: 551a438f37d7488408c014f9bc163d59, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 298571061}
   m_SourcePrefab: {fileID: 100100000, guid: 551a438f37d7488408c014f9bc163d59, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
