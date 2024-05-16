@@ -9,9 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 079c895a1f1bdb044931b0db77eccbd9, type: 3}
-  m_Name: SuperPlowAction
+  m_Script: {fileID: 11500000, guid: 6de8207dfe1cbfc45a4996db899a27a5, type: 3}
+  m_Name: MainSceneJson
   m_EditorClassIdentifier: 
-  canPlow:
-  - {fileID: 11400000, guid: 618045cce7d33c64c858d2420eed9a89, type: 2}
-  - {fileID: 11400000, guid: 777d764406d22874eacf40cd2a59134a, type: 2}
+  strings:
+  - '{}'

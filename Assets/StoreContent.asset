@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 602db5f18e5af07438ecf04c2f8e6fa3, type: 3}
+  m_Name: StoreContent
+  m_EditorClassIdentifier: 
+  slots:
+  - item: {fileID: 11400000, guid: 910d59493a49aac4e87bbb4bed6861d7, type: 2}
+    count: 999
+  - item: {fileID: 11400000, guid: 4a664e6ddeecfcc4db25de96ff3b9a04, type: 2}
+    count: 999
+  - item: {fileID: 11400000, guid: 7cf588dadaa7e20469325a6f392cd02b, type: 2}
+    count: 999
+  - item: {fileID: 11400000, guid: a371ad52f72b318468184c2932673e07, type: 2}
+    count: 999
+  - item: {fileID: 11400000, guid: a371ad52f72b318468184c2932673e07, type: 2}
+    count: 999
+  - item: {fileID: 11400000, guid: a371ad52f72b318468184c2932673e07, type: 2}
+    count: 999
+  isDirty: 0

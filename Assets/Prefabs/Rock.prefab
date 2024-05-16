@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4439837136129161096}
   - component: {fileID: 1984262958187812158}
   - component: {fileID: 7911124375867061042}
+  - component: {fileID: -8282260303414156309}
   m_Layer: 0
   m_Name: Rock
   m_TagString: Untagged
@@ -28,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 5780467725106513750}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.5926113, y: 5.0639915, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 20, y: 20, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -118,7 +119,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.001374837}
+  m_Offset: {x: -0.00040790066, y: -0.0044340715}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -129,7 +130,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.16, y: 0.122749664}
+  m_Size: {x: 0.16407895, y: 0.080736145}
   m_EdgeRadius: 0
 --- !u!114 &7911124375867061042
 MonoBehaviour:
@@ -149,3 +150,16 @@ MonoBehaviour:
   dropCount: 3
   itemCountInOneDrop: 1
   nodeType: 2
+--- !u!114 &-8282260303414156309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5780467725106513750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3e9cf6270e1cba4abb04235b4c6119b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stationary: 1
