@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 525f97f527a180041b46dfeb98eee810, type: 3}
   m_Name: CutTrees
   m_EditorClassIdentifier: 
+  energyCost: 3
   sizeOfInteractableArea: 1
   canHitNodosOfType: 01000000
