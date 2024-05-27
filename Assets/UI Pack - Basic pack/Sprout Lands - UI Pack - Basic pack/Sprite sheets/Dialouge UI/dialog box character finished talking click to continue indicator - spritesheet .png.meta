@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 10
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -108,7 +108,139 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: dialog box character finished talking click to continue indicator - spritesheet
+        _0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 3
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a920c8642e8258444ae67cc9f540df54
+      internalID: -1344014181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dialog box character finished talking click to continue indicator - spritesheet
+        _1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 4
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fffb7163454eec24c904d4e9c662f0e2
+      internalID: -1876772265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dialog box character finished talking click to continue indicator - spritesheet
+        _2
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 4
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f8ed2799a8cd944903dae7d53fa3d7
+      internalID: 1815840012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dialog box character finished talking click to continue indicator - spritesheet
+        _3
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 3
+        width: 22
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6509e8a68509e745980690403481c81
+      internalID: 357216980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dialog box character finished talking click to continue indicator - spritesheet
+        _4
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 3
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae01f12626bb1ef44bb5cb2542c900ec
+      internalID: -963926912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dialog box character finished talking click to continue indicator - spritesheet
+        _5
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 3
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78b3a663ff9202f4586a3767c0f9b5e7
+      internalID: 1155373585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +251,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      dialog box character finished talking click to continue indicator - spritesheet _0: -1344014181
+      dialog box character finished talking click to continue indicator - spritesheet _1: -1876772265
+      dialog box character finished talking click to continue indicator - spritesheet _2: 1815840012
+      dialog box character finished talking click to continue indicator - spritesheet _3: 357216980
+      dialog box character finished talking click to continue indicator - spritesheet _4: -963926912
+      dialog box character finished talking click to continue indicator - spritesheet _5: 1155373585
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

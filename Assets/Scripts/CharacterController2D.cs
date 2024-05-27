@@ -23,6 +23,10 @@ public class CharacterController2D : MonoBehaviour
 
     private void Update()
     {
+        if (DialogueManager.GetInstance().dialoguePlaying)
+        {
+            return;
+        }
         float horizontal = Input.GetAxisRaw("Horizontal");
         float vertical = Input.GetAxisRaw("Vertical");
 
