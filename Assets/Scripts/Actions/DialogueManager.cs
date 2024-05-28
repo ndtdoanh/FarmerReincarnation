@@ -146,9 +146,6 @@ public class DialogueManager : MonoBehaviour
             currentStory.ChooseChoiceIndex(choiceIndex);
             ContinueStory();
         }
-        else
-        {
-            Debug.LogError("Choice index out of range: " + choiceIndex);
-        }
+        
     }
 }
