@@ -23,6 +23,7 @@ public class CharacterController2D : MonoBehaviour
 
     private void Update()
     {
+
         float horizontal = Input.GetAxisRaw("Horizontal");
         float vertical = Input.GetAxisRaw("Vertical");
 
