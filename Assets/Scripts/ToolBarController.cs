@@ -13,7 +13,8 @@ public class ToolBarController : MonoBehaviour
 
     public Item GetItem
     {
-        get{
+        get
+        {
             return GameManager.instance.inventoryContainer.slots[selectedTool].item;
         }
     }
