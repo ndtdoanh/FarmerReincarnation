@@ -13,7 +13,8 @@ public class ToolBarController : MonoBehaviour
 
     public Item GetItem
     {
-        get{
+        get
+        {
             return GameManager.instance.inventoryContainer.slots[selectedTool].item;
         }
     }
@@ -28,18 +29,20 @@ public class ToolBarController : MonoBehaviour
         float delta = Input.mouseScrollDelta.y;
         if (delta != 0)
         {
+            int oldSelectedTool = selectedTool;
             if (delta > 0)
             {
-                selectedTool += 1;
-                selectedTool = (selectedTool >= toolbarSize ? 0 : selectedTool);
-
+                selectedTool = (selectedTool + 1) % toolbarSize;
             }
             else
             {
-                selectedTool -= 1;
-                selectedTool = (selectedTool <= 0 ? toolbarSize - 1 : selectedTool);
+                selectedTool = (selectedTool - 1 + toolbarSize) % toolbarSize;
             }
-            onChange?.Invoke(selectedTool);
+
+            if (oldSelectedTool != selectedTool)
+            {
+                onChange?.Invoke(selectedTool);
+            }
         }
     }
 }
