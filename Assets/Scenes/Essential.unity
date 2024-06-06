@@ -4636,7 +4636,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0572640a7bca9c4ba3a5f2306f01ea1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nightLightColor: {r: 0, g: 0, b: 0, a: 0}
+  nightLightColor: {r: 0.509434, g: 0.509434, b: 0.509434, a: 0}
   nightTimeCurve:
     serializedVersion: 2
     m_Curve:
@@ -5024,7 +5024,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.51, y: 3.12, z: -10}
+  m_LocalPosition: {x: -8.88, y: 8.73, z: -10}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5632,7 +5632,7 @@ Transform:
   m_GameObject: {fileID: 589728623}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.51, y: 3.12, z: -10}
+  m_LocalPosition: {x: -8.88, y: 8.73, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -15289,11 +15289,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6778534091596935620, guid: 551a438f37d7488408c014f9bc163d59, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.51
+      value: -8.88
       objectReference: {fileID: 0}
     - target: {fileID: 6778534091596935620, guid: 551a438f37d7488408c014f9bc163d59, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.12
+      value: 8.73
       objectReference: {fileID: 0}
     - target: {fileID: 6778534091596935620, guid: 551a438f37d7488408c014f9bc163d59, type: 3}
       propertyPath: m_LocalPosition.z
