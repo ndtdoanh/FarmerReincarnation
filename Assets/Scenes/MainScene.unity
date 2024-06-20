@@ -43010,7 +43010,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1152377466
 Transform:
   m_ObjectHideFlags: 0
@@ -43020,7 +43020,7 @@ Transform:
   m_GameObject: {fileID: 1152377465}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -69.79, y: -3.97, z: 0}
+  m_LocalPosition: {x: -94.24, y: 3.98, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -43033,7 +43033,7 @@ PolygonCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1152377465}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -43070,16 +43070,12 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 13.900842, y: 17.35479}
-      - {x: -7.0561323, y: 17.571247}
-      - {x: -7.0678883, y: 2.4841309}
-      - {x: -7.048805, y: -0.5380144}
-      - {x: 4.0579185, y: -0.7002578}
-      - {x: 13.757519, y: -0.547029}
-      - {x: 5.350273, y: -0.6978376}
-      - {x: 13.784054, y: -0.5520694}
-      - {x: 13.699467, y: 2.4610953}
-      - {x: 13.908395, y: 17.432215}
+    - - {x: -16.318695, y: 8.6136675}
+      - {x: -16.276184, y: -6.663728}
+      - {x: -4.3538146, y: -6.5512776}
+      - {x: -3.21138, y: -6.7780914}
+      - {x: 7.70968, y: -6.5139904}
+      - {x: 7.886512, y: 8.400384}
   m_UseDelaunayMesh: 0
 --- !u!1001 &1188796219
 PrefabInstance:
@@ -44362,7 +44358,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4147796211000673033, guid: 744f7503851a5f24aa81cd6eb1ff5b2a, type: 3}
       propertyPath: targetPosition.x
-      value: -13.58
+      value: -10.58
       objectReference: {fileID: 0}
     - target: {fileID: 4147796211000673033, guid: 744f7503851a5f24aa81cd6eb1ff5b2a, type: 3}
       propertyPath: targetPosition.y

@@ -50,14 +50,14 @@ public class TilemapCropsManager : TimeAgent
         {
             if (cropTile.crop == null) { continue; }
 
-           /* cropTile.damage += 0.02f;
+            cropTile.damage += 0.02f;
 
             if (cropTile.damage > 1f)
             {
                 cropTile.Harvested();
                 targetTilemap.SetTile(cropTile.position, plowed);
                 continue;
-            }*/
+            }
 
             if (cropTile.Complete)
             {

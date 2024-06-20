@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 403cdde99ffbdde4583af6175c34ab46, type: 3}
-  m_Name: Nuts
+  m_Name: carrotSeed
   m_EditorClassIdentifier: 
   Name: 
   stackable: 1
-  icon: {fileID: 1072893472, guid: 6b6db0ceb0e7e4e42992dcf4b2bc3036, type: 3}
+  icon: {fileID: 1332911983, guid: 6b6db0ceb0e7e4e42992dcf4b2bc3036, type: 3}
   onAction: {fileID: 0}
   onTileMapAction: {fileID: 11400000, guid: bbb0f553573ad4247a2222e7fe6d3ecf, type: 2}
   onItemUsed: {fileID: 11400000, guid: bbb0f553573ad4247a2222e7fe6d3ecf, type: 2}
-  crop: {fileID: 11400000, guid: a148c5a533565804799d90fa29053c9c, type: 2}
-  price: 150
+  crop: {fileID: 11400000, guid: b368e8555587fee40a6e7239f1ac09b4, type: 2}
+  price: 200
   canBeSold: 1

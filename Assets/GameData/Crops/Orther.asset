@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59965cf1592ce09469ac9522cd3752e0, type: 3}
+  m_Name: Orther
+  m_EditorClassIdentifier: 
+  timeToGrow: 15
+  yield: {fileID: 11400000, guid: 7cf588dadaa7e20469325a6f392cd02b, type: 2}
+  count: 1
+  sprites:
+  - {fileID: -146596420, guid: d10913dcf4e8852429286fd8c00d224e, type: 3}
+  - {fileID: 1595606852, guid: d10913dcf4e8852429286fd8c00d224e, type: 3}
+  - {fileID: -501561450, guid: d10913dcf4e8852429286fd8c00d224e, type: 3}
+  - {fileID: 776112706, guid: d10913dcf4e8852429286fd8c00d224e, type: 3}
+  growthStateTime: 04000000070000000a0000000f000000

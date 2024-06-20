@@ -8,7 +8,7 @@ public class ScreenTint : MonoBehaviour
 {
     [SerializeField] Color unTintedColor;
     [SerializeField] Color tintedColor;
-    float f; 
+    float f;
     public float speed = 0.5f;
 
     Image image;
@@ -50,7 +50,7 @@ public class ScreenTint : MonoBehaviour
 
     private IEnumerator UnTintScreen()
     {
-        while (f<1f) 
+        while (f < 1f)
         {
             f += Time.deltaTime * speed;
             f = Math.Clamp(f, 0.0f, 1.0f);
@@ -62,6 +62,6 @@ public class ScreenTint : MonoBehaviour
             yield return new WaitForEndOfFrame();
 
         }
-        
+
     }
 }
