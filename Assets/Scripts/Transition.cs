@@ -1,10 +1,6 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
+
 using UnityEditor;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 
 public enum TransitionType
@@ -56,7 +52,7 @@ public class Transition : MonoBehaviour
         }
     }
 
-    private void OnDrawGizmos()
+    /*private void OnDrawGizmos()
     {
         if(transitionType == TransitionType.Scene)
         {
@@ -67,5 +63,5 @@ public class Transition : MonoBehaviour
         {
             Gizmos.DrawLine(transform.position, destination.position);  
         }
-    }
+    }*/
 }
