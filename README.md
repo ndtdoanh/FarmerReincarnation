@@ -1,14 +1,15 @@
-![Image](https://github.com/michar109/FarmerReincarnation/assets/97839386/8028399e1-2c85-4e18-bc61-e4e4ac4c51eb)  
-Canvas: https://www.canva.com/design/DAGE8KvV29c/n1r1JCfJGTpWlBkuxXwYAw/edit?utm_content=DAGE8KvV29c&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton  
-Leader: Trần Minh Quân - SE170040  
+![image](https://github.com/micharel09/FarmerReincarnation/assets/97839306/6bb1dbe5-c406-43d1-9344-3fbf4aa234bf)
 
-Member:
-. Leader - Trần Minh Quân - SE170040
-. Trần Quốc Bảo - SE162002
-. Nguyễn Minh Tuấn - SE161231
-. Nguyễn Văn Trung - SE160416
-. Nguyễn Đoàn Trọng Đoanh - SE161935
-. Lê Đức Anh - SE170084
+Canvas: https://www.canva.com/design/DAGE8KvV29c/n1r1JCfJGTpWlBkuxXwYAw/edit?utm_content=DAGE8KvV29c&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton  
+Leader: Trần Minh Quân - SE170040 
+
+Member:  
+Trần Minh Quân - SE170040  
+Trần Quốc Bảo - SE162002  
+Nguyễn Minh Tuấn - SE161231  
+Nguyễn Văn Trung - SE160416  
+Nguyễn Đoàn Trọng Đoanh - SE161935  
+Lê Đức Anh - SE170084  
 
 How to play:  
 Players can participate in a farm world here. Players can do farm work (planting, harvesting,...)  
