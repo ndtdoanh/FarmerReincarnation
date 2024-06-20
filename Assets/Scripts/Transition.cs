@@ -1,6 +1,10 @@
-
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 
 public enum TransitionType
@@ -20,9 +24,10 @@ public class Transition : MonoBehaviour
 
     private void Start()
     {
-        if(confiner != null) {
-        cameraConfiner = FindObjectOfType<CameraConfiner>();    
-        
+        if (confiner != null)
+        {
+            cameraConfiner = FindObjectOfType<CameraConfiner>();
+
         }
     }
 
@@ -42,9 +47,9 @@ public class Transition : MonoBehaviour
                     toTransition, destination.position - toTransition.position
                     );
                 toTransition.position = new Vector3(destination.position.x, destination.position.y, toTransition.position.z);
-                
-                
-                
+
+
+
                 break;
             case TransitionType.Scene:
                 GameSceneManager.instance.InitSwitchScene(sceneNameToTransition, targetPosition);
@@ -52,16 +57,16 @@ public class Transition : MonoBehaviour
         }
     }
 
-    /*private void OnDrawGizmos()
+    private void OnDrawGizmos()
     {
-        if(transitionType == TransitionType.Scene)
+        if (transitionType == TransitionType.Scene)
         {
             Handles.Label(transform.position, "to " + sceneNameToTransition);
         }
 
-        if(transitionType == TransitionType.Warp)
+        if (transitionType == TransitionType.Warp)
         {
-            Gizmos.DrawLine(transform.position, destination.position);  
+            Gizmos.DrawLine(transform.position, destination.position);
         }
-    }*/
+    }
 }
