@@ -16816,8 +16816,12 @@ PrefabInstance:
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 8578309759844663272, guid: 551a438f37d7488408c014f9bc163d59, type: 3}
+      propertyPath: m_Size.x
+      value: 0.6233266
+      objectReference: {fileID: 0}
+    - target: {fileID: 8578309759844663272, guid: 551a438f37d7488408c014f9bc163d59, type: 3}
       propertyPath: m_Size.y
-      value: 0.30075932
+      value: 0.96237296
       objectReference: {fileID: 0}
     - target: {fileID: 8578309759844663272, guid: 551a438f37d7488408c014f9bc163d59, type: 3}
       propertyPath: m_Enabled
@@ -16825,11 +16829,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8578309759844663272, guid: 551a438f37d7488408c014f9bc163d59, type: 3}
       propertyPath: m_Offset.x
-      value: -0.058861196
+      value: -0.04771045
       objectReference: {fileID: 0}
     - target: {fileID: 8578309759844663272, guid: 551a438f37d7488408c014f9bc163d59, type: 3}
       propertyPath: m_Offset.y
-      value: -0.41521353
+      value: -0.15874526
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6261463647665762324, guid: 551a438f37d7488408c014f9bc163d59, type: 3}
