@@ -1,7 +1,9 @@
 -> START
 
 === START ===
-Welcome to the quiz game!
+Hello, my name is Mertin. I am a villager from Habit Town.
+Here I have a few questions to see if you are worthy of becoming a true farmer.
+
 
 -> GET_RANDOM_QUESTION
 
@@ -547,6 +549,5 @@ That's correct! Good job.
 -> QUESTION(randomIndex)
 
 === END_GAME ===
-Thank you for playing!
-
+Congratulations, you have passed my test!
 -> DONE

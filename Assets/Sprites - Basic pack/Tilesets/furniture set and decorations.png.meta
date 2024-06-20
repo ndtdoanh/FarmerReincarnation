@@ -1,0 +1,3493 @@
+fileFormatVersion: 2
+guid: 6314e3a9e23ee7e4a9eabdf88eb8ee4c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 10
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: furniture set and decorations_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 252
+        width: 41
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daf34a669424dcd46b0a57ee002b4a57
+      internalID: -1012298434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 252
+        width: 33
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c883f5e07875aa342a1e19a61de240b1
+      internalID: -886155896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_2
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 252
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95fb613075d843440879574d173a76c7
+      internalID: -766526253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_3
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 268
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8028343e06c77db45b67c37b5fb953a0
+      internalID: 749339980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_4
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 268
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36087f8018f926a459751de8f1c67c15
+      internalID: 1050328960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_5
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 268
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3e6c0c048e743e4989da0289afe5907
+      internalID: 638838846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_6
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 252
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05602b7aaf50391469a3188ec46e2005
+      internalID: 1768716456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_7
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 252
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca528b081150e07459b3846adf529b95
+      internalID: -847724591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_8
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 252
+        width: 48
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c51a71022a6f6a447b7b34beb32ebf92
+      internalID: -1332226890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_9
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 252
+        width: 48
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0398bf7a9642ab04180963db585b9451
+      internalID: -1317122063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_10
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 252
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a85970a1ca6ea44cb9b43adc86ddcdb
+      internalID: -588964230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_11
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 252
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf5e3da0e64c7374b9ffc91f21aaefae
+      internalID: -772114241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_12
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 252
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 703ae35572edfc94d8e41e6e238357b2
+      internalID: -1486583809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_13
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 252
+        width: 36
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edae7263ce0841a43bf0064c3fc11745
+      internalID: 572392622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_14
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 252
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe277e51e30b14d4391747c7dc692b91
+      internalID: -175356369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_15
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 252
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1657943807d04d84084652558431d135
+      internalID: -395710739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_16
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 220
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21293caf871c65c4fb6f027272be4d4a
+      internalID: -202997386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_17
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 220
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f560903aa38102d4aa800bbb31c01933
+      internalID: 801688544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_18
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 220
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22e12635349ef1144988e395406d6ffa
+      internalID: 203184505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_19
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 220
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba0498389f82965448ad345374c15d49
+      internalID: 1582930389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_20
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 204
+        width: 11
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad1c8e8fdc85c2c40bb3959158b7dfdf
+      internalID: 467199746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_21
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 204
+        width: 10
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 426b6749beab8b14583415234188ac81
+      internalID: -1301920086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_22
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 220
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9175239c68b7e5346a4dac5e954c278c
+      internalID: -37447276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_23
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 220
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9490160051032b49b1f092627c69012
+      internalID: 291874868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_24
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 220
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c2152d264412e94698060f014236024
+      internalID: 1187745470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_25
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 220
+        width: 31
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f42b029353d944bb74332793beab34
+      internalID: -1046100890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_26
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 220
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb1f9061e75fe5046aa62c4296a8435c
+      internalID: 289598869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_27
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 220
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 958544299ac8ffc49920389410a2c04d
+      internalID: 1397143904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_28
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 220
+        width: 31
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa9d0fd3ff089aa4499fea985704de84
+      internalID: 459609709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_29
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 220
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2ac4e80fb50f1e49af09c640bbae8f5
+      internalID: -299732389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_30
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 215
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efe1e06bca11b2342962d31a1a0b667e
+      internalID: 1109160625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_31
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 188
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b53770bda9ac9a94c83c0e0c046c1852
+      internalID: -558711127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_32
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 188
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 828a3545c6fa63d4cb2e958936a1730b
+      internalID: -264014613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_33
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 188
+        width: 40
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe89024e09be01f488f79e25980f93a3
+      internalID: -839906022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_34
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 172
+        width: 14
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24e6bbe059555f6458484f995b26dae8
+      internalID: -2050221189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_35
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 172
+        width: 14
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7709b3ecb69021468c37fbd67b9b971
+      internalID: 1540236727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_36
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 172
+        width: 17
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92407ec4c3129d24a824a7e6b64a06d7
+      internalID: 2087412984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_37
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 188
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 785de1bce0682e943ad0283b00293b62
+      internalID: 1439584458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_38
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 188
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae52c8cbcb2f9b947b366a977b668c2a
+      internalID: 1592305290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_39
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 172
+        width: 17
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 409016150d8e3524ba4eba157ad5348e
+      internalID: 114700308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_40
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 188
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef18454d113263408b4dad3af701514
+      internalID: -996480537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_41
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 188
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cde90dfb248153419ffed07fedf65d9
+      internalID: 1619359711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_42
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 193
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 008e413290b3b2a429a8ed3e0e035337
+      internalID: 1743521115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_43
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 193
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 654532dc3daa61e48ac58b03055ad600
+      internalID: -440254499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_44
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 140
+        width: 14
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f9a732813e0df24794c8f56e2de1f68
+      internalID: -1196243162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_45
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 140
+        width: 14
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17316c683d9db6247bd284c79d22300c
+      internalID: 1440255092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_46
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 172
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c74a063c4be4b574e9b83b1b51f01d33
+      internalID: 1659257179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_47
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 172
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f98c52c4ff549044b9e2318ed78ef62f
+      internalID: 912377414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_48
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 175
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b7eb5aec0e130643ab1cbccb1f34dc9
+      internalID: -704388905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_49
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 175
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9faa7ddef4ca4244d8883d20d8b8431e
+      internalID: 1715678510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_50
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 140
+        width: 41
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68510ab4d90244a4f9ac5dad7d641388
+      internalID: 1828554463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_51
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 140
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc0cfc516863bc46907c6331ac7428b
+      internalID: -1803648184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_52
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 140
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dce09241f3e31b047b862e474755da9e
+      internalID: -280290399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_53
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 142
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91ada7de7248d8843a99a2865c3fddd4
+      internalID: 202855488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_54
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 142
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62dbb9f4d8a682242ba819d2d8fa1bfc
+      internalID: -1388013124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_55
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 142
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 010f9550d5d087f48b319d50ab9ed108
+      internalID: -42030105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_56
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 142
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 852d077fcb2c41d49a459dec305fa8e8
+      internalID: -230331846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_57
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 124
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24386904a9487a842b2cfb06ea03d86e
+      internalID: 1372253284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_58
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 124
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecb7facec64fbfc49b2e0e9b1d157395
+      internalID: 274875838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_59
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 124
+        width: 26
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dd733f41b08289428847817a531a8dd
+      internalID: 1702638137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_60
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 124
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bb592e17ffe9fe44922834a86588462
+      internalID: -1085814805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_61
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 140
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f177739a71a7354faffc62bf3134321
+      internalID: 1868364885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_62
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 140
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 572a076ac7075df40912e8c82d681966
+      internalID: 938175031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_63
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 140
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 004f48d52a42db942a581641e847e544
+      internalID: -1790450378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_64
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 124
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffe68ab822bc7b34fae3d072368bf4d6
+      internalID: -1436155159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_65
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 124
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e17a7895775975349bc11abf2545245d
+      internalID: -1083593882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_66
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 92
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b08d88f27087045bf0207ebd107096
+      internalID: -1447878728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_67
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 108
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d8f7976975b42e408eff7b71b63a89c
+      internalID: -1274125324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_68
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 108
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38698df2d336e884781e445c70c9ffe2
+      internalID: -1198783146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_69
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 124
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c14d0ee8cb319194bab70a26c2f7b833
+      internalID: 773698387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_70
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 124
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61d1ab61eb5bb449aea98d4b85c6a7b
+      internalID: 1322144152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_71
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 124
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dad2879f6b7eb34a9bd4731ca5776b6
+      internalID: 1964491708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_72
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 124
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ac287e4e78199542bc48d637b1315e1
+      internalID: -1303375637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_73
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 124
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae67c93f513a970448b44db1399c8e95
+      internalID: -941795504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_74
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 124
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 925435cadbf8f4542ab268ab73c45742
+      internalID: 1903437205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_75
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 108
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a321b8b771ea8c4e9bc0ec8eb75a1bb
+      internalID: 742410811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_76
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 92
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7611ac5a5e439c74ea477aa54ef6845b
+      internalID: -1361648212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_77
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 108
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff0c3c5cd06ec26499d23ada26c32c2c
+      internalID: 1137083409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_78
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 92
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e639d2d2dc4f2f9498b431f89f6e8d4b
+      internalID: -1295147161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_79
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 92
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2326503eb4bac1948bd79693af0a45cf
+      internalID: 1913040139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_80
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 92
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bdbfd7857d71d24a97cabe423f224f3
+      internalID: 988833342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_81
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 93
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ca4eb12918f6d04cbfef5df707dd5fc
+      internalID: 133774764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_82
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 92
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 325ea32eebd360c46845531d450f7b2e
+      internalID: -1403970413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_83
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 95
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b13956419cd45bf4a859595e17fb4b07
+      internalID: -17353483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_84
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 92
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c816d1adee4ac44c9cdff6df6a8342b
+      internalID: 687435198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_85
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 94
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde955b2cb69d074da37e5f9cd1bf8bc
+      internalID: -1925961568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_86
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 76
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e73e59b72a26ab4187ceafb77d789b8
+      internalID: -1047130508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_87
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 76
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a4580ae48eae9340914791d6f2ea05d
+      internalID: -633007626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_88
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 76
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86094ed9d8ac18147a2e55380515db6e
+      internalID: 1575695806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_89
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 76
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f7ba7745c142804694081337ca3eb3b
+      internalID: 1492847181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_90
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 92
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6513e60abccbd2a48b646666bba13064
+      internalID: -1198764114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_91
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 44
+        width: 48
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b44eae83b646b62489b01c3dbe86e428
+      internalID: 1797432631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_92
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 76
+        width: 26
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aa8b8540c707024687419e3f00c661e
+      internalID: -1158445479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_93
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 60
+        width: 9
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e558f1b9bb610044ab9312928a7a874e
+      internalID: 1973228079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_94
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 77
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c1291d165d51df4eb7ee0c665f346fc
+      internalID: -1855095208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_95
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 77
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 053f42d798fcd414dbef7d0dd33672b9
+      internalID: 1874434213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_96
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 77
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed36dad6fa2b96047854447f8c7ece42
+      internalID: 1559394146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_97
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 77
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 190d67cb361c9c44f948e6c7feb4aded
+      internalID: -1802004342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_98
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 77
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46c2d5376a71f5d4b96e4121c5986aaf
+      internalID: 265872257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_99
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 77
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02c6ceef6354ae144ab2501936d32ea4
+      internalID: 474645905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_100
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 77
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4202472be3b70b469be0c5047158611
+      internalID: 833303090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_101
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 44
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25db0febaddd2a5418f5ed1c0ed9fb0b
+      internalID: 183019933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_102
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 44
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9106490965b6af943b434dd9856185f5
+      internalID: 1295742764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_103
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 28
+        width: 23
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9312abcc046449043a35bf7be9ed134c
+      internalID: -1640243900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_104
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 44
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e3a29335d1aebe4283b665ab1492ac7
+      internalID: -422950760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_105
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 44
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf049944d44b23409c04c7ea59f7837
+      internalID: -1485737012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_106
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 44
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bffb7d7fb16a9c46a4aa8bdfb92ab3c
+      internalID: -1203211927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_107
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 44
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee32f87bc256c3643b52059fbe68dd4f
+      internalID: 492513574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_108
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 60
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee9b5905ac9c4f245a5b9e7e9ae6b71d
+      internalID: 420832220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_109
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 60
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3e90cc3215ad7a428554f48edba5ba2
+      internalID: -3621571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_110
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 60
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eebc6c3ee205e91448e59a2e41a6d663
+      internalID: 1525927096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_111
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 60
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7c14a84d32558145bde54771724c1d8
+      internalID: 1934802447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_112
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 60
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dcae68aca342964bb9ec7e9d206b95c
+      internalID: -1506281456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_113
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 61
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 995e460d9f59f6d4bae0b1c7393f5414
+      internalID: 443657192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_114
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 61
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32d763fab9290f342b41ad8fbcdd8328
+      internalID: 612489933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_115
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 61
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f69d6438cb7d96c4296144fa2c005561
+      internalID: -451278001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_116
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 61
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09aac67e8c80bde4f91cbc837a2ca293
+      internalID: -1154864164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_117
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 61
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 230126fc602f9c24f9c6d79e540e94dd
+      internalID: -1594328222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_118
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 61
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 291005135fb8341488841609696dd90a
+      internalID: -1532046007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_119
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 28
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 675ddde820915c44b95359aef856b3ed
+      internalID: 488345188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_120
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 28
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47ed19184118d2e4ebdfdaf43c0a8117
+      internalID: 2054076917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_121
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 28
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47ec159672d2baa4087b8e1dd85772a1
+      internalID: -1544305994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_122
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 36
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62d4226d3e8fa1444b32b4677efb40ae
+      internalID: -627016546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_123
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 28
+        width: 10
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eba4a47add09594b8035b428fb72440
+      internalID: -1967622542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_124
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 28
+        width: 10
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b990236455de64599e34745e6cb68a
+      internalID: -1821037033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_125
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 28
+        width: 9
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a45957bb78eac024fb9379ca4abe3f54
+      internalID: 536716290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_126
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 47
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 499f1a72054ee244cbbdc07fc9557344
+      internalID: 889564804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_127
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 46
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bd8137adb9ee7948ac94d21139ecf8d
+      internalID: -842911949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_128
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 46
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9da657823560eb64597c78e536a754ef
+      internalID: 1513784876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_129
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 47
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1be86ebd37ef86b459f3ed7dea61b8c5
+      internalID: -7232279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_130
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 45
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd7efe363421e314aab362c0dfba1322
+      internalID: 1364919944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_131
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 45
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ea342828be1311449200455fada148e
+      internalID: 1657363286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_132
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 28
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3804e45ceaedc245b646250222c36f0
+      internalID: -1404067725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_133
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 28
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05fc200110942104395242817456ab29
+      internalID: 134217009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_134
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 12
+        width: 41
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b0900687b2bbc841ac38fbf1db2cb3e
+      internalID: 783909835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_135
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 12
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63cc52a60fccf9d499763ac45cd62e00
+      internalID: -1788999194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_136
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 12
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49b6b7b20f7b79a44b4547b954c3ba8c
+      internalID: -1487917483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_137
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 30
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ef9c79818ef91d42bd1ea219f4c55cf
+      internalID: -2137341809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_138
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 28
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cde29737a2bac6f42843c4c1b9eb5822
+      internalID: 2091477959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_139
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 30
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4fad78e3e6b4264c8be8df984796ce8
+      internalID: -1872256712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_140
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 30
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf1226a8e5dffc48bac60f7a76195e1
+      internalID: -2141788600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_141
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 29
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c90a6e054ed7b4f86981c8690bf7f0
+      internalID: -2130618310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_142
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 12
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4feb7f44fbeec19459250d0d3cb44ae4
+      internalID: 1583555905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_143
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 12
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c4f1b50dc6856545a4226735df28e6e
+      internalID: -1925742644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_144
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 12
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34c9e4cd62af2be419e267c0e3f1f271
+      internalID: 1768027154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_145
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 12
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd4c952e296b1484fa919ce6d1b24e84
+      internalID: -230546713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_146
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 12
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac26f78275f0e6848b78f21de4b14449
+      internalID: -471501349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_147
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 12
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efec8be2c65a70b47bb3f61112dedddf
+      internalID: 1357652624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_148
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 12
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57b83941fd7cb914290a80529cd3502e
+      internalID: -585576259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_149
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 12
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3055c6fe0c312c94b8ca88ed2c08a5b7
+      internalID: 439310258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_150
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 12
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5bdfca9d13a70146ad97f8f25681387
+      internalID: -1239803405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_151
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 12
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4f99ccb710518a409f03327968f63a2
+      internalID: 1573902116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture set and decorations_152
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 12
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89ed6dbd16c322a44a3574f395820e34
+      internalID: -1714520716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      furniture set and decorations_0: -1012298434
+      furniture set and decorations_1: -886155896
+      furniture set and decorations_10: -588964230
+      furniture set and decorations_100: 833303090
+      furniture set and decorations_101: 183019933
+      furniture set and decorations_102: 1295742764
+      furniture set and decorations_103: -1640243900
+      furniture set and decorations_104: -422950760
+      furniture set and decorations_105: -1485737012
+      furniture set and decorations_106: -1203211927
+      furniture set and decorations_107: 492513574
+      furniture set and decorations_108: 420832220
+      furniture set and decorations_109: -3621571
+      furniture set and decorations_11: -772114241
+      furniture set and decorations_110: 1525927096
+      furniture set and decorations_111: 1934802447
+      furniture set and decorations_112: -1506281456
+      furniture set and decorations_113: 443657192
+      furniture set and decorations_114: 612489933
+      furniture set and decorations_115: -451278001
+      furniture set and decorations_116: -1154864164
+      furniture set and decorations_117: -1594328222
+      furniture set and decorations_118: -1532046007
+      furniture set and decorations_119: 488345188
+      furniture set and decorations_12: -1486583809
+      furniture set and decorations_120: 2054076917
+      furniture set and decorations_121: -1544305994
+      furniture set and decorations_122: -627016546
+      furniture set and decorations_123: -1967622542
+      furniture set and decorations_124: -1821037033
+      furniture set and decorations_125: 536716290
+      furniture set and decorations_126: 889564804
+      furniture set and decorations_127: -842911949
+      furniture set and decorations_128: 1513784876
+      furniture set and decorations_129: -7232279
+      furniture set and decorations_13: 572392622
+      furniture set and decorations_130: 1364919944
+      furniture set and decorations_131: 1657363286
+      furniture set and decorations_132: -1404067725
+      furniture set and decorations_133: 134217009
+      furniture set and decorations_134: 783909835
+      furniture set and decorations_135: -1788999194
+      furniture set and decorations_136: -1487917483
+      furniture set and decorations_137: -2137341809
+      furniture set and decorations_138: 2091477959
+      furniture set and decorations_139: -1872256712
+      furniture set and decorations_14: -175356369
+      furniture set and decorations_140: -2141788600
+      furniture set and decorations_141: -2130618310
+      furniture set and decorations_142: 1583555905
+      furniture set and decorations_143: -1925742644
+      furniture set and decorations_144: 1768027154
+      furniture set and decorations_145: -230546713
+      furniture set and decorations_146: -471501349
+      furniture set and decorations_147: 1357652624
+      furniture set and decorations_148: -585576259
+      furniture set and decorations_149: 439310258
+      furniture set and decorations_15: -395710739
+      furniture set and decorations_150: -1239803405
+      furniture set and decorations_151: 1573902116
+      furniture set and decorations_152: -1714520716
+      furniture set and decorations_16: -202997386
+      furniture set and decorations_17: 801688544
+      furniture set and decorations_18: 203184505
+      furniture set and decorations_19: 1582930389
+      furniture set and decorations_2: -766526253
+      furniture set and decorations_20: 467199746
+      furniture set and decorations_21: -1301920086
+      furniture set and decorations_22: -37447276
+      furniture set and decorations_23: 291874868
+      furniture set and decorations_24: 1187745470
+      furniture set and decorations_25: -1046100890
+      furniture set and decorations_26: 289598869
+      furniture set and decorations_27: 1397143904
+      furniture set and decorations_28: 459609709
+      furniture set and decorations_29: -299732389
+      furniture set and decorations_3: 749339980
+      furniture set and decorations_30: 1109160625
+      furniture set and decorations_31: -558711127
+      furniture set and decorations_32: -264014613
+      furniture set and decorations_33: -839906022
+      furniture set and decorations_34: -2050221189
+      furniture set and decorations_35: 1540236727
+      furniture set and decorations_36: 2087412984
+      furniture set and decorations_37: 1439584458
+      furniture set and decorations_38: 1592305290
+      furniture set and decorations_39: 114700308
+      furniture set and decorations_4: 1050328960
+      furniture set and decorations_40: -996480537
+      furniture set and decorations_41: 1619359711
+      furniture set and decorations_42: 1743521115
+      furniture set and decorations_43: -440254499
+      furniture set and decorations_44: -1196243162
+      furniture set and decorations_45: 1440255092
+      furniture set and decorations_46: 1659257179
+      furniture set and decorations_47: 912377414
+      furniture set and decorations_48: -704388905
+      furniture set and decorations_49: 1715678510
+      furniture set and decorations_5: 638838846
+      furniture set and decorations_50: 1828554463
+      furniture set and decorations_51: -1803648184
+      furniture set and decorations_52: -280290399
+      furniture set and decorations_53: 202855488
+      furniture set and decorations_54: -1388013124
+      furniture set and decorations_55: -42030105
+      furniture set and decorations_56: -230331846
+      furniture set and decorations_57: 1372253284
+      furniture set and decorations_58: 274875838
+      furniture set and decorations_59: 1702638137
+      furniture set and decorations_6: 1768716456
+      furniture set and decorations_60: -1085814805
+      furniture set and decorations_61: 1868364885
+      furniture set and decorations_62: 938175031
+      furniture set and decorations_63: -1790450378
+      furniture set and decorations_64: -1436155159
+      furniture set and decorations_65: -1083593882
+      furniture set and decorations_66: -1447878728
+      furniture set and decorations_67: -1274125324
+      furniture set and decorations_68: -1198783146
+      furniture set and decorations_69: 773698387
+      furniture set and decorations_7: -847724591
+      furniture set and decorations_70: 1322144152
+      furniture set and decorations_71: 1964491708
+      furniture set and decorations_72: -1303375637
+      furniture set and decorations_73: -941795504
+      furniture set and decorations_74: 1903437205
+      furniture set and decorations_75: 742410811
+      furniture set and decorations_76: -1361648212
+      furniture set and decorations_77: 1137083409
+      furniture set and decorations_78: -1295147161
+      furniture set and decorations_79: 1913040139
+      furniture set and decorations_8: -1332226890
+      furniture set and decorations_80: 988833342
+      furniture set and decorations_81: 133774764
+      furniture set and decorations_82: -1403970413
+      furniture set and decorations_83: -17353483
+      furniture set and decorations_84: 687435198
+      furniture set and decorations_85: -1925961568
+      furniture set and decorations_86: -1047130508
+      furniture set and decorations_87: -633007626
+      furniture set and decorations_88: 1575695806
+      furniture set and decorations_89: 1492847181
+      furniture set and decorations_9: -1317122063
+      furniture set and decorations_90: -1198764114
+      furniture set and decorations_91: 1797432631
+      furniture set and decorations_92: -1158445479
+      furniture set and decorations_93: 1973228079
+      furniture set and decorations_94: -1855095208
+      furniture set and decorations_95: 1874434213
+      furniture set and decorations_96: 1559394146
+      furniture set and decorations_97: -1802004342
+      furniture set and decorations_98: 265872257
+      furniture set and decorations_99: 474645905
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

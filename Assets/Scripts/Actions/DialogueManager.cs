@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -18,6 +18,9 @@ public class DialogueManager : MonoBehaviour
     private TextMeshProUGUI[] choicesText;
     private List<Choice> originalChoices = new List<Choice>();
     public bool dialoguePlaying { get; private set; }
+
+    // Thêm biến cờ để kiểm tra xem văn bản đang được hiển thị từng từ một
+    private bool isTyping = false;
 
     private void Awake()
     {
@@ -53,7 +56,8 @@ public class DialogueManager : MonoBehaviour
             return;
         }
 
-        if (InputManager.GetInstance().GetSubmitPressed())
+        // Chỉ tiếp tục khi văn bản hiện tại đã được hiển thị hết và không có lựa chọn nào đang hiển thị
+        if (InputManager.GetInstance().GetSubmitPressed() && !isTyping && !AreChoicesDisplayed())
         {
             ContinueStory();
         }
@@ -88,7 +92,9 @@ public class DialogueManager : MonoBehaviour
         {
             if (currentStory.canContinue)
             {
-                dialogueText.text = currentStory.Continue();
+                string nextText = currentStory.Continue();
+                StopAllCoroutines();  // Dừng tất cả các coroutine hiện tại
+                StartCoroutine(DisplayTextOneByOne(nextText));
                 DisplayChoices();
             }
             else
@@ -100,6 +106,20 @@ public class DialogueManager : MonoBehaviour
         {
             Debug.LogError("currentStory is null.");
         }
+    }
+
+    private IEnumerator DisplayTextOneByOne(string text)
+    {
+        dialogueText.text = "";  // Xóa văn bản hiện tại
+        isTyping = true;  // Bắt đầu hiển thị từng từ một
+
+        foreach (char letter in text.ToCharArray())
+        {
+            dialogueText.text += letter;  // Thêm từng ký tự vào hộp thoại
+            yield return new WaitForSeconds(0.05f);  // Thời gian trễ giữa các ký tự (0.05 giây)
+        }
+
+        isTyping = false;  // Kết thúc hiển thị từng từ một
     }
 
     private void DisplayChoices()
@@ -146,6 +166,18 @@ public class DialogueManager : MonoBehaviour
             currentStory.ChooseChoiceIndex(choiceIndex);
             ContinueStory();
         }
- 
+    }
+
+    private bool AreChoicesDisplayed()
+    {
+        // Kiểm tra xem có lựa chọn nào đang hiển thị hay không
+        foreach (GameObject choice in choices)
+        {
+            if (choice.activeSelf)
+            {
+                return true;
+            }
+        }
+        return false;
     }
 }
