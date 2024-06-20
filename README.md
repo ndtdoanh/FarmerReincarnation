@@ -2,8 +2,7 @@
 
 Leader: Trần Minh Quân - SE170040 
 
-Member:  
-Trần Minh Quân - SE170040  
+Member: 
 Trần Quốc Bảo - SE162002  
 Nguyễn Minh Tuấn - SE161231  
 Nguyễn Văn Trung - SE160416  
