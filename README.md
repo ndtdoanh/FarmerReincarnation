@@ -6,7 +6,7 @@ Member:
 Trần Quốc Bảo - SE162002  
 Nguyễn Minh Tuấn - SE161231  
 Nguyễn Văn Trung - SE160416  
-Nguyễn Đoàn Trọng Đoanh - SE161935  
+Nguyễn Đoàn Trọng Doanh - SE161935  
 Lê Đức Anh - SE170084  
 
 How to play:  
